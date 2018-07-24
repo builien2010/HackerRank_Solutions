@@ -1,4 +1,6 @@
-// Code by Lien Bui
+// Author: Lien Bui 
+// GitHub: github.com/builien2010
+// HackerRank: hackerrank.com/builien2010
 
 import java.io.*;
 import java.util.*;
