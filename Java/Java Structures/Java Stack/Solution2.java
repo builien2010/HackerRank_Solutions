@@ -11,11 +11,11 @@ class Solution{
 		
 		while (sc.hasNext()) {
             
-			String input=sc.next();
+		String input=sc.next();
             
-      while(input.length() != (input =  input.replaceAll("\\(\\)|\\[\\]|\\{\\}", "")).length());
-      System.out.println(input.isEmpty());
-     }
+      		while(input.length() != (input =  input.replaceAll("\\(\\)|\\[\\]|\\{\\}", "")).length());
+     		System.out.println(input.isEmpty());
+   	  	}
 		
 	}
 }
