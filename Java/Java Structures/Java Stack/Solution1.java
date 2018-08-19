@@ -38,21 +38,20 @@ class Solution{
         
     }
 	
-	public static void main(String []argh){ 
+    public static void main(String []argh){ 
         
-		Scanner sc = new Scanner(System.in);
+	Scanner sc = new Scanner(System.in);
 		
-		while (sc.hasNext()) {
+	while (sc.hasNext()) {
             
-			String input=sc.next();
+		String input=sc.next();
             
-     if(solve(input)){
-        System.out.println("true");
-     }else{
-        System.out.println("false");
-     }      
-        
-   }
+    		if(solve(input)){
+        		System.out.println("true");
+    		}else{
+       			System.out.println("false");
+    		}       
+   	}
 		
-	}
+    }
 }
